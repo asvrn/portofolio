@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav{
+    font-weight: 10px;
+}
+.navbar{
+    background-color: #112A46;
+    color: #C6DAF1;
+    border-bottom: 1px solid #C6DAF1;
+}
+
+a.logo{
+    color: #C6DAF1;
+    font-size: larger;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a.logo:hover{
+    color: darkgray;
+}
+
+a.nav-link{
+    color: #C6DAF1;
+}
+
+a.nav-link:hover{
+    color: darkgray;
+}
+.col-sm{
+    margin: 10px;
+    padding: 5%;
+}
+
+.btn{
+    margin: 0px 5px 10px 0px
+}
+
+.home{
+    padding-top: 70px;
+}
+
+.identity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px 50px 50px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.navbar-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    padding-bottom: 20px;
+}
+
+th{
+    color: #C6DAF1;
+    padding: 0px 20px 5px 0%;
+    font-size: larger;
+    font-weight: normal;
+}
+
+tr{
+    color: #ffffff;
+    font-size: larger;
+}
+
+h5{
+    color: #C6DAF1;
+}
+
+.title{
+    padding: 45px 0px 20px 0px;
+}
+
+.edutitle{
+    padding: 20px;
+}
+
+.row{
+    padding: 0px 20px 0px 20px;
+}
+
+.skill{
+    margin: 50px 0px 0px 50px;
+}
+
+.card{
+    margin: 20px 20px 20px 20px;
+}
+
+.skillachiv{
+    padding-top: 40px;
+}
+
+.container{
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #112A46;
+    padding: 20px;
+}
+footer h1 {
+    color: white;
+    font-size: 16px;
+}
+.social {
+    font-size: 16px;
+    color: #C6DAF1;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 414px) {
+    .col-sm {
+        margin: 5px;
+        padding: 3%;
+    }
+    .image{
+        max-width: 75%;
+    }
+    .btn {
+        font-size: 4px; 
+        padding: 2px 4px; 
+    }
+    .ident{
+        padding: 10px;
+    }
+    th{
+        padding: 5px 20px 5px 20px;
+        font-size: medium;
+    }
+    tr{
+        font-size: small;
+    }
+}
